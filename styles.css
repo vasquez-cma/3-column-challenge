@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+    margin-top: 20px;
+}
+
+p{
+    color: white;
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+button{
+    margin-top: 40px;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+    width: 270px;
+    padding: 30px;
+}
+
+
+.card1{
+    background-color: rgb(226,133,37);
+}
+
+.card2{
+    background-color: rgb(1,105,114);
+}
+
+.card3{
+    background-color: rgb(0,64,63);
+}
+
+.button1{
+    color: rgb(226,133,37);
+}
+
+.button2{
+    color: rgb(1,105,114);
+}
+
+.button3{
+    color: rgb(0,64,63);
+}
+
+@media screen and (min-width:800px){
+
+    main{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .container{
+        margin-top: 140px;
+        flex-direction: row;
+
+    }
+
+    .card{
+        height: 600px;
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    img{
+        width: 90px;
+    }
+ 
+    button{
+        height: 60px;
+        width: 140px;
+        border-radius: 30px;
+    }
+}
+
